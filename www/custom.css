@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.add-20-bottom {
+
+	margin-bottom: 20px;
+	
+}
+
+.btn {
+
+	padding: 20px;
+	border-radius: 0;
+	font-size: 18px;
+	background-color: #22487d;
+	
+}
+
+.navbar-default {
+	
+	background-color: #66b360;
+	
+}
+
+.navbar-default a.navbar-brand {
+
+	color: #ffffff;	
+	
+}
+
