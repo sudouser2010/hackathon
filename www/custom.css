@@ -7,14 +7,15 @@
 	
 }
 
-.btn {
+.btn-primary {
 
-	padding: 20px;
+	padding: 10px;
 	border-radius: 0;
 	font-size: 18px;
 	background-color: #22487d;
 	
 }
+
 
 .navbar-default {
 	
@@ -28,3 +29,15 @@
 	
 }
 
+div.list-group-item {
+
+	background-color: #22487d;
+	color: #ffffff;
+	
+}
+
+.list-group {
+
+	border-radius: 0;	
+	
+}
