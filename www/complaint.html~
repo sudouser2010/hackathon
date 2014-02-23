@@ -38,7 +38,7 @@
   </div>
   <div class="form-group">
   	<label for="photoInput">Photos</label><br>
-	<button class="btn btn-primary add-20-bottom">Add Photo</button>
+	<input type="file">Add Photo</a>
   </div>
 	
 

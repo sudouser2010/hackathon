@@ -8,7 +8,6 @@
     <body>
 
 
-
         <input type="file" name="photos" id="photos" /> <br>
         <input type="text" name="user_firstname" id="user_firstname"/> <br>
         <input type="text" name="user_lastname" id="user_lastname" /> <br>
@@ -21,20 +20,19 @@
         <input type="text" name="location" id="location" /> <br>
         <input type="submit" value="Enforce" id="submit_data" />
 
-
     </body>
 
-    <script>
-    $("#submit_data").click(function(){
+  <script>
+  $("#submit_data").click(function(){
 
-    data_to_send = {
-    "photos":$("#photos").val(),
+  data_to_send = {
+   "photos":$("#photos").val(),
     "user_firstname":$("#user_firstname").val(),
     "user_lastname":$("#user_lastname").val(),
     "user_email":$("#user_email").val(),
     "user_phone":$("#user_phone").val(),
     "violation_type":$("#violation_type").val(),
-    "latitude":$("#latitude").val(),
+  "latitude":$("#latitude").val(),
     "longitude":$("#longitude").val(),
     "description":$("#description").val(),
     "location":$("#location").val(),
@@ -48,7 +46,7 @@
         };
 
 
-    $.ajax(options);
+   $.ajax(options);
                 
     
     });

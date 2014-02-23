@@ -86,7 +86,35 @@
 <script src="custom.js"></script>
 
 
+  <script>
+  $("#submit_data").click(function(){
 
+  data_to_send = {
+   "photos":$("#photos").val(),
+    "user_firstname":$("#user_firstname").val(),
+    "user_lastname":$("#user_lastname").val(),
+    "user_email":$("#user_email").val(),
+    "user_phone":$("#user_phone").val(),
+    "violation_type":$("#violation_type").val(),
+  "latitude":$("#latitude").val(),
+    "longitude":$("#longitude").val(),
+    "description":$("#description").val(),
+    "location":$("#location").val(),
+    };
+
+    options = {
+    type:       "POST",
+    url:        "http://www.Davides.me/insert.php",
+    data:       data_to_send,
+    dataType:   "json",
+        };
+
+
+   $.ajax(options);
+                
+    
+    });
+    </script>
 
 
 

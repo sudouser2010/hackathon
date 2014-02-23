@@ -7,7 +7,7 @@
 
     <body>
 
-
+sfxzdf
     <form action="http://www.Davides.me/insert.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
         <input type="file" name="photos" id="photos" /> <br>
         <input type="text" name="user_firstname" id="user_firstname"/> <br>
@@ -24,34 +24,10 @@
 
     </body>
 
-  <script>
-  $("#submit_data").click(function(){
+    <script>
 
-  data_to_send = {
-   "photos":$("#photos").val(),
-    "user_firstname":$("#user_firstname").val(),
-    "user_lastname":$("#user_lastname").val(),
-    "user_email":$("#user_email").val(),
-    "user_phone":$("#user_phone").val(),
-    "violation_type":$("#violation_type").val(),
-  "latitude":$("#latitude").val(),
-    "longitude":$("#longitude").val(),
-    "description":$("#description").val(),
-    "location":$("#location").val(),
-    };
+alert('d');
 
-    options = {
-    type:       "POST",
-    url:        "http://www.Davides.me/insert.php",
-    data:       data_to_send,
-    dataType:   "json",
-        };
-
-
-   $.ajax(options);
-                
-    
-    });
     </script>
 
 
